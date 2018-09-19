@@ -12,7 +12,8 @@ brew install neovim \
              wget \
              cmake \
              fzf \
-             nvm
+             nvm \
+             watchman
 
 
 # change vim to nvim

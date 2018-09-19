@@ -23,3 +23,9 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 noremap <C-h> <C-w>h
+
+noremap <leader>d :ALEFix<CR>
+
+"" Toggle find
+nnoremap <silent> <leader>f :Rgrep<CR>
+
