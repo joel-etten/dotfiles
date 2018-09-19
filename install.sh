@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Make sure to always clone at $HOME directory
 # install applications
 brew install neovim \
              zsh \
@@ -18,6 +18,11 @@ brew install neovim \
 
 # change vim to nvim
 ln -s /usr/local/bin/nvim /usr/local/bin/vim
+
+# Load neovim configurations
+ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
+
+ln -s ~/dotfiles/zshrc ~/.zshrc
 
 # change zsh to default shell
 chsh -s $(which zsh)
