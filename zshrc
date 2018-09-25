@@ -94,11 +94,19 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# ALIASES
+alias mymoxy="cd ~/www/itinance/mymoxy"
+alias mymox-api="cd ~/www/itinance/mymoxy-api"
 alias heidi="cd ~/www/nfq/heidi/"
+alias olivia="cd ~/www/nfq/olivia/"
+alias wendy="cd ~/www/nfq/wendy/"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias dotfiles='cd ~/dotfiles'
+alias rndebugger='open "rndebugger://set-debugger-loc?host=localhost&port=19001"'
+
+# create JS TAGS
+alias jtags='ctags -R src && sed -i "" -E "/^(if|switch|function|module\.exports|it|describe).+language:js$/d" tags'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
