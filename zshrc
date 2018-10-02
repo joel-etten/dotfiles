@@ -106,7 +106,7 @@ alias dotfiles='cd ~/dotfiles'
 alias rndebugger='open "rndebugger://set-debugger-loc?host=localhost&port=19001"'
 
 # create JS TAGS
-alias jtags='ctags -R src && sed -i "" -E "/^(if|switch|function|module\.exports|it|describe).+language:js$/d" tags'
+alias jtags="ctags -R src tags"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
