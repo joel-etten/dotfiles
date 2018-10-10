@@ -104,9 +104,8 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias dotfiles='cd ~/dotfiles'
 alias rndebugger='open "rndebugger://set-debugger-loc?host=localhost&port=19001"'
-
+alias gpsemulator=" java -jar ~/executables/android-gps-emulator-0.2.war"
 # create JS TAGS
-alias jtags="ctags -R src tags"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

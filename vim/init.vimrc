@@ -7,6 +7,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'jiangmiao/auto-pairs'
   Plug 'ap/vim-css-color'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'wakatime/vim-wakatime'
   Plug 'vim-scripts/grep.vim'
   Plug 'sheerun/vim-polyglot'
   Plug 'Galooshi/vim-import-js'
